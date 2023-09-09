@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pilot Project</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='ZAKA.css') }}">
+    <script>
+        function checkInputLength() {
+            var input = document.getElementById("input-text");
+            var words = input.value.trim().split(" ");
+            if (words.length > 15) {
+                alert("Maximum 15 words allowed!");
+                input.value = words.slice(0, 15).join(" ");
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <img src="{{ url_for('static', filename='ZAKA.png') }}" class="logo" alt="Logo">
+        </div>
+    </header>
+
+    <main>
+        <div class="main-content">
+            <h1 class="text" style="font-family:segoe ui;">DeepLang Translator</h1>
+            <form id="translation-form" method="POST" action="/">
+                
+                    <div class="form-group">
+                        <textarea class="form-control" id="input-text" name="input-text" placeholder="Enter your text here... (15 words max!)" oninput="checkInputLength()"></textarea>
+                    </div>
+                    <button type="submit" class="submit">Translate</button>
+                    {% if result %}
+                    <div class="flex-container"></div>
+                    <div class="result">
+                        <h2 class="text" style="font-size:115%;font-family:segoe ui;">Result:</h2>
+                        {% if request.form['input-text'] %}
+                            <p style="font-size:85%;font-family:trebuchet ms;">English Sentence:    {{ request.form['input-text'] }}</p>
+                        {% elif request.args.get('text') %}
+                            <p style="font-size:85%;font-family:trebuchet ms;">English Sentence:    {{ request.args.get('text') }}</p>
+                        {% endif %}
+                        <p style="font-size:85%;font-family:trebuchet ms;">French Translation:  {{ result }}</p>
+                    </div>
+                    {% endif %}
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="bottom-bar">
+            <div class="text-center" style="font-family:courier;">
+                Team: Roy Aad and Ahmed Eid
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
