@@ -25,7 +25,7 @@ The repository is structured as follows:
 
 - **data**: This subfolder contains the datasets used in the projects. You can explore the data to better understand the context and the challenges addressed in each project.
 
-### Getting Started
+## Getting Started
 
 To get started, simply navigate to the specific week's folder you're interested in and explore the associated materials. You'll find detailed documentation within each project to guide you through the code and methodologies used.
 
