@@ -16,8 +16,7 @@ The repository is structured as follows:
 
 To get started, simply navigate to the specific week's folder you're interested in and explore the associated materials. You'll find detailed documentation within each project to guide you through the code and methodologies used.
 
-## Contribution
+## Contact Information
 
-As this repository is continually evolving, contributions and improvements are welcome. If you have any suggestions, identified issues, or would like to contribute to a particular project, please feel free to open an issue or submit a pull request.
-
+If you have any questions or would like to get in touch, you can reach me at royaad@live.com.
 Thank you for visiting this repository, and I hope you find the projects insightful and valuable in your journey to becoming a machine learning expert.
