@@ -7,7 +7,7 @@ Please note that this repository is a work in progress, and files are continuall
 ## Table of Contents
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
-- [Week 1: Medical Cost Prediction (Scikit-learn Models)](#week-1-medical-cost-prediction-scikit-learn-models)
+- [Week 1: Medical Cost Prediction (Scikit-learn Models)](https://github.com/royaad/AIC/tree/main/Week_01)
 - [Week 2: Smoker Status Prediction (Scikit-learn Models)](#week-2-smoker-status-prediction-scikit-learn-models)
 - [Week 3: Gaussian Naive Bayes Classifier (From Scratch)](#week-3-gaussian-naive-bayes-classifier-from-scratch)
 - [Week 4: Smoker Status Prediction (Data Balancing, Hyperparameter Tuning, and Regularization)](#week-4-smoker-status-prediction-data-balancing-hyperparameter-tuning-and-regularization)
