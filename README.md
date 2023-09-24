@@ -8,14 +8,14 @@ Please note that this repository is a work in progress, and files are continuall
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
 - [Week 1: Medical Cost Prediction (Scikit-learn Models)](https://github.com/royaad/AIC/tree/main/Week_01)
-- [Week 2: Smoker Status Prediction (Scikit-learn Models)](#week-2-smoker-status-prediction-scikit-learn-models)
-- [Week 3: Gaussian Naive Bayes Classifier (From Scratch)](#week-3-gaussian-naive-bayes-classifier-from-scratch)
-- [Week 4: Smoker Status Prediction (Data Balancing, Hyperparameter Tuning, and Regularization)](#week-4-smoker-status-prediction-data-balancing-hyperparameter-tuning-and-regularization)
-- [Week 6: Stroke Prediction (Dense Neural Networks and Data Pipeline)](#week-6-stroke-prediction-dense-neural-networks-and-data-pipeline)
-- [Week 7: Mask Detection (Convolutional Neural Networks)](#week-7-mask-detection-convolutional-neural-networks)
-- [Week 8: Machine Translation (RNNs, LSTMs, GRUs, Embeddings)](#week-8-machine-translation-rnns-lstms-grus-embeddings)
-- [Week 9: Deployment (Flask, Docker, and Gradio)](#week-9-deployment-flask-docker-and-gradio)
-- [Week 12 to 16: Capstone Project (Talent Recommendation Engine using OpenAI)](#week-12-to-16-capstone-project-talent-recommendation-engine-using-openai)
+- [Week 2: Smoker Status Prediction (Scikit-learn Models)](https://github.com/royaad/AIC/tree/main/Week_02)
+- [Week 3: Gaussian Naive Bayes Classifier (From Scratch)](https://github.com/royaad/AIC/tree/main/Week_03)
+- [Week 4: Smoker Status Prediction (Data Balancing, Hyperparameter Tuning, and Regularization)](https://github.com/royaad/AIC/tree/main/Week_04)
+- [Week 6: Stroke Prediction (Dense Neural Networks and Data Pipeline)](https://github.com/royaad/AIC/tree/main/Week_06)
+- [Week 7: Mask Detection (Convolutional Neural Networks)](https://github.com/royaad/AIC/tree/main/Week_07)
+- [Week 8: Machine Translation (RNNs, LSTMs, GRUs, Embeddings)](https://github.com/royaad/AIC/tree/main/Week_08)
+- [Week 10: Deployment (Flask, Docker, and Gradio)](https://github.com/royaad/AIC/tree/main/Week_10)
+- [Week 12 to 16: Capstone Project (Talent Recommendation Engine using OpenAI)](https://github.com/royaad/AIC/tree/main/Week_12_16)
 
 ## Project Structure
 
@@ -24,28 +24,6 @@ The repository is structured as follows:
 - **Week X**: Each week is represented by a separate folder (e.g., Week 1, Week 2, etc.). Inside each week's folder, you'll find project-specific materials, code, and documentation.
 
 - **data**: This subfolder contains the datasets used in the projects. You can explore the data to better understand the context and the challenges addressed in each project.
-
-## Getting Started
-
-To get started, simply navigate to the specific week's folder you're interested in and explore the associated materials. You'll find detailed documentation within each project to guide you through the code and methodologies used.
-
-### Week 1: Medical Cost Prediction (Scikit-learn Models)
-
-### Week 2: Smoker Status Prediction (Scikit-learn Models)
-
-### Week 3: Gaussian Naive Bayes Classifier (From Scratch)
-
-### Week 4: Smoker Status Prediction (Data Balancing, Hyperparameter Tuning, and Regularization)
-
-### Week 6: Stroke Prediction (Dense Neural Networks and Data Pipeline)
-
-### Week 7: Mask Detection (Convolutional Neural Networks)
-
-### Week 8: Machine Translation (RNNs, LSTMs, GRUs, Embeddings)
-
-### Week 9: Deployment (Flask, Docker, and Gradio)
-
-### Week 12 to 16: Capstone Project (Talent Recommendation Engine using OpenAI)
 
 ## Contact Information
 
